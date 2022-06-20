@@ -2,50 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Fullstendig HTML eksempel</title>
+    <title>Buffyverden</title>
     <meta name="description" content="Dette er en eksempel HTML for å demonstrere hvordan man kan lage god semantisk HTML.">
 </head>
 <body>
     <header>
-        <h1>Dette er tittelen for hele nettstedet</h1>
+        <h1>Buffy the Vampire Slayer-fanside</h1>
         <nav>
-            <ul>
-                <li><a href="#content">Hovedinnhold</a></li>
-                <li><a href="https://bekk.no">Bekk hovedside</a></li>
+            <menu>
+                <li><a href="#maincontent">Hovedinnhold</a></li>
+                <li><a href="pages/buffy.html">Buffy</a></li>
+                <li><a href="pages/angel.html">Angel</a></li>
                 <li><a href="https://github.com/sisselfladby/semantic-workshop">Semantisk workshop</a></li>
-            </ul>
+            </menu>
         </nav>
     </header>
-    <main>
-        <h2>Dette er tittelen for denne siden</h2>
+    <main id="maincontent">
+        <h2>Om serien</h2>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
+            Buffy, vampyrenes skrekk (originaltittel Buffy the Vampire Slayer) er en amerikansk TV-serie skapt av Joss
+            Whedon, med blant andre Sarah Michelle Gellar, Nicholas Brendon, Anthony Stewart Head og Alyson Hannigan i
+            rollene. Serien ble sendt i 7 sesonger fra 1996 til 2003.
         </p>
-        <h3>Dette er en undertittel</h3>
+        <p>
+            Hovedpersonen Buffy Summers (Gellar) er en ung jente som får et kall om å bekjempe verdens mange
+            manifestasjoner av ondskap; demoner, vampyrer og mer hverdagslige problemer. Serien ble raskt et kultfenomen
+            og har en stor tilhengerskare i hele verden, spesielt i Frankrike, USA og Storbritannia. Serien ble lagt ned
+            og sagt opp av TV-kanalen WB etter femte sesong, men ble tatt opp igjen sesongen etter av UPN som sendte de
+            to siste sesongene.
+        </p>
+        <cite><a href="https://no.wikipedia.org/wiki/Buffy,_vampyrenes_skrekk">Buffy, vampyrenes skrekk (Wikipedia)</a></cite>
+        <h3>De tre hovedpersonene i serien fra mest til minst bad-ass:</h3>
         <ol>
-            <li>Her er punkt nr. 1</li>
-            <li>Her er punkt nr. 2</li>
-            <li>Her er punkt nr. 3</li>
+            <li>Buffy</li>
+            <li>Willow</li>
+            <li>Xander</li>
         </ol>
         <form>
             <label>
-                Fornavn
-                <input type="text">
+                Hvilken av karakterene er din favoritt?
+                <input type="text" />
             </label>
             <button>Send</button>
         </form>
-        <footer>
-            <p>Kontaktinformasjon:</p>
-            <address>
-                <a href="mailto:din-epost@bekk.no">din-epost@bekk.no</a><br>
-                <a href="tel:+4791919191">91919191</a>
-            </address>
-        </footer>
     </main>
-
+    <footer>
+        Kontaktinformasjon:
+        <address>
+            <a href="mailto:buffy-lover@bekk.no">buffy-lover@bekk.no</a><br>
+            <a href="tel:+4700000000">00000000</a>
+        </address>
+    </footer>
 </body>
 </html>
