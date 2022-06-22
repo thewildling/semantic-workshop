@@ -5,10 +5,10 @@ starter med usemantisk HTML, og gjør det sakte men sikkert om til semantisk HTM
 
 Åpne terminalen og last ned repoet (f. eks ved å skrive `git clone git@github.com:sisselfladby/semantic-workshop.git.`)
 
-Her finner du tre filer i roten - `README.md` er denne fila, `index.html` er fila du starter med, og `fullstendig.html` 
+Her finner du tre filer i roten - `README.md` er denne fila, `index.html` er fila du starter med, og `losningsforslag.html` 
 er løsningsforslaget.
 
-For å se nettsiden åpner du `index.html` i en nettleser, for å se hvordan sluttproduktet skal se ut åpner du `fullstendig.html`.
+For å se nettsiden åpner du `index.html` i en nettleser, for å se hvordan sluttproduktet skal se ut kan du gå inn på https://sisselfladby.github.io
 
 Gjennom hele oppgavesettet kan du bruke https://developer.mozilla.org/en-US/docs/Web/HTML/Element som referanse, eller
 huk tak i oss!
